@@ -5,9 +5,9 @@
         app:showAsAction="ifRoom|withText"
         android:icon="@mipmap/ic_launcher"
         android:title="myMenu1"
-        android:id="@+id/menu_test1" />
+        android:id="@+id/menu_test1"/>
     <item android:title="myMenu2"
-        android:id="@+id/menu_test2" />
+        android:id="@+id/menu_test2"/>
     <item android:title="myMenu3"
-        android:id="@+id/menu_test3" />
+        android:id="@+id/menu_test3"/>
 </menu>
