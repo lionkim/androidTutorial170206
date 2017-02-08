@@ -15,7 +15,7 @@ public class TestSQLiteOpenHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        String strSQL = "CREATE TABLE student (id, INTEGER PRIMARY KEY AUTO INCREMENT, " +
+        String strSQL = "CREATE TABLE student (id INTEGER PRIMARY KEY AUTOINCREMENT, " +
                 "name TEXT, age INTEGER, address TEXT);";
         db.execSQL(strSQL);
     }
@@ -27,3 +27,31 @@ public class TestSQLiteOpenHelper extends SQLiteOpenHelper {
         onCreate(db);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

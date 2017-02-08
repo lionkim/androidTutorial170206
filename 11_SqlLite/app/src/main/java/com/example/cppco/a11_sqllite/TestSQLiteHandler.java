@@ -20,7 +20,7 @@ public class TestSQLiteHandler {
         SQLiteDatabase db = helper.getWritableDatabase();
 
         ContentValues values = new ContentValues();
-        values.put("name" name);
+        values.put("name", name);
         values.put("age", age);
         values.put("address", address);
 
