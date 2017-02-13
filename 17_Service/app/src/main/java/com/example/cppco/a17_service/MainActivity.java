@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         startService(intent);
     }
 
+
     public void onStopClick(View v){
         Intent intent = new Intent(this, MyService.class);
         stopService(intent);
